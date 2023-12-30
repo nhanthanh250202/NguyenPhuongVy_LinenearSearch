@@ -1,0 +1,117 @@
+.bton {
+  color: rgb(227, 21, 21);
+  font-size: 35px;
+  font-weight: bold;
+  height: 100px;
+  width: 100px;
+  margin: 10px 10px;
+  background-color: #C4DDFF;
+  display: inline-block;
+  vertical-align: top; /* Thêm dòng này để giữ các ô trên cùng một hàng */
+}
+
+
+  
+.number-button {
+  padding: 10px 0px;
+  text-align: center;
+  margin: 60px -50px; /* Điều chỉnh margin trên và dưới nút */
+  white-space: nowrap; /* Ngăn chặn xuống dòng */
+  display: inline-block;
+  vertical-align: middle; /* Căn giữa theo chiều dọc */
+  margin-right: -50px; /* Di chuyển nút về bên trái */
+}
+  h1{
+    text-align: center;
+    font-weight: bold; /* Thêm kiểu in đậm */
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    color:rgb(19, 18, 18);
+  }
+  
+  .change-color{
+    background-color: #001D6E;
+  }
+  
+  .Search-key{
+    text-align: center;
+    margin: 60px 30px;
+    padding: 30px 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .ans{
+    height:160px;
+    padding:30px;
+    width:1130px;
+    margin:0 auto;
+    text-align: right;
+    font-size: 45px;
+    color:rgb(12, 12, 12);
+  }
+  
+  
+  .to-do{
+     margin: 50px 0;
+     font-family: 'Lato', sans-serif;
+     padding: 50px 50px;
+  }
+  
+  #search{
+    color: #faf9f9;
+    position:absolute;
+    left:650px;
+    top: 500px;
+    background-color: #001D6E;
+    width: 100px; /* Điều chỉnh chiều rộng của nút */
+    height: 50px; /* Điều chỉnh chiều cao của nút */
+  }
+  
+  #clear{
+    color: #faf9f9;
+    position:absolute;
+    top: 500px;
+    right:650px;
+    background-color: #001D6E;
+    width: 100px; /* Điều chỉnh chiều rộng của nút */
+    height: 50px; /* Điều chỉnh chiều cao của nút */
+  }
+  
+  body{
+    margin: 8px;
+    background-color: #7FB5FF
+  }
+  .main {
+    position: relative;
+    width: 100%;
+}
+.container{
+  position: relative;
+}
+.back-button   {
+    border: none;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: 100;
+  }
+  .back-button img{
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    
+  }
+  #timer{
+    position: fixed;
+    top: 1000px; /* Điều chỉnh giá trị này để định vị theo chiều dọc */
+    right: 1000px; /* Điều chỉnh giá trị này để định vị theo chiều ngang */
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
